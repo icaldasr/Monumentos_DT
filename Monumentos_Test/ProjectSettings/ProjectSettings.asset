@@ -173,7 +173,7 @@ PlayerSettings:
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
-  AndroidTargetSdkVersion: 0
+  AndroidTargetSdkVersion: 29
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -249,7 +249,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/PUJ/TESIS/Digital-Twin-Modelling/Monuments_TEST/Key/Test2.keystore
+  AndroidKeystoreName: '{dedicated}: Test2.keystore'
   AndroidKeyaliasName: test2_prueba2
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
