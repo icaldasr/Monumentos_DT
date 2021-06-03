@@ -2159,7 +2159,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xmlRawFile: {fileID: 4900000, guid: da217c4fa3e3b9a409c5e2047a08061a, type: 3}
-  uiText: {fileID: 1342903605}
+  uiEmail: {fileID: 0}
+  uiName: {fileID: 1342903605}
+  uiGenre: {fileID: 2067603549}
+  uiAge: {fileID: 1433362295}
+  uiUser: {fileID: 0}
+  uiText: {fileID: 0}
 --- !u!4 &606481589
 Transform:
   m_ObjectHideFlags: 0
