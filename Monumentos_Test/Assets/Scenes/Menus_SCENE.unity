@@ -276,7 +276,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: ANTES
 --- !u!1 &55962403
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,10 +576,32 @@ MonoBehaviour:
   m_CharacterLimit: 50
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 606481588}
+        m_MethodName: logIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 606481588}
+        m_MethodName: logIn
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
@@ -2404,9 +2426,8 @@ MonoBehaviour:
   uiText: {fileID: 0}
   uiMessageBox5: {fileID: 1088324329}
   usernameInput: {fileID: 1873659438}
-  passwordInput: {fileID: 832183446}
   uiMessageBox: {fileID: 36945588}
-  uiMessageBox2: {fileID: 1088324326}
+  uiMessageBox2: {fileID: 843298705}
   uiMessageBox3: {fileID: 843298705}
   uiMessageBox4: {fileID: 1153269629}
 --- !u!4 &606481589
@@ -3027,7 +3048,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: XML
 --- !u!1 &844975311
 GameObject:
   m_ObjectHideFlags: 0
@@ -3426,7 +3447,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "DESPU\xC9S"
 --- !u!1 &1092189770
 GameObject:
   m_ObjectHideFlags: 0
@@ -3637,7 +3658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "IF VALIDACI\xD3N"
 --- !u!222 &1153269632
 CanvasRenderer:
   m_ObjectHideFlags: 0

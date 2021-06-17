@@ -1,18 +1,27 @@
 <users>
-	<profile>
-		<email>diegogalarza@gmail.com</email>
-		<name>Diego Galarza</name>
+	<profile id = 1>
+		<email>prueba@gmail.com</email>
+		<name>Prueba Uno</name>
 		<genre>Male</genre>
 		<age>24</age>
-		<user>dgalarza</user>
+		<user>prueba1</user>
 		<password>123456</password>
 	</profile>
-<!-- 	<profile2>
-		<email>icaldasr88@gmail.com</email>
-		<name>Isabella Caldas</name>
-		<genre>Female</genre>
-		<age>22</age>
-		<user>icaldasr</user>
-		<password>123456</password>
-	</profile2> -->
 </users>
+
+<comments>
+	<CRey>
+		<comment id = 1>
+			<body></body>
+			<emotion></emotion>
+			<mTransport></mTransport>			
+		</comment>
+	</CRey>
+	<Gatos>
+		<comment id = 1>
+			<body></body>
+			<emotion></emotion>
+			<mTransport></mTransport>			
+		</comment>
+	</Gatos>
+</comments>
