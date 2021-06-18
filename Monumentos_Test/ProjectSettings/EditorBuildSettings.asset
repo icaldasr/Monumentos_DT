@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gatos_SCENE.unity
     guid: 4dc90b9fa7adab54fa67cff895411cfe
+  - enabled: 1
+    path: Assets/Scenes/AddComment_SCENE.unity
+    guid: 7eeb5b83f456c1747802da39dbee93b8
+  - enabled: 1
+    path: Assets/Scenes/ViewComment_SCENE.unity
+    guid: dc3a4411b55c393468f82a11b0a66e90
+  - enabled: 1
+    path: Assets/Scenes/Help_SCENE.unity
+    guid: 15dc8e965ab470f46a4bd150dee211a4
   m_configObjects: {}
