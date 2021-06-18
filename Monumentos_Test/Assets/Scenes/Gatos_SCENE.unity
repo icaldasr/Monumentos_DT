@@ -218,7 +218,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -406,13 +406,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata09
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata09.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &165179287
 Transform:
@@ -525,7 +525,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -598,7 +598,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata21Material
 
     -5864'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -613,7 +613,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 11eaf32871ad4001a91af82f22a9992f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -845,7 +845,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1033,13 +1033,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata13
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata13.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &212136827
 Transform:
@@ -1062,7 +1062,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata12Material
 
     -5554'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -1077,7 +1077,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: a642bbfff64d4003ab18486ffbf8ac39, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1090,7 +1090,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata14Material
 
     -5766'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -1105,7 +1105,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8ca54c31e2294d0389fdd9eb0a086df6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1351,13 +1351,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata08
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata08.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &257130515
 Transform:
@@ -1495,13 +1495,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata23
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata23.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &297673515
 Transform:
@@ -1614,7 +1614,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1777,7 +1777,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1850,7 +1850,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata06Material
 
     -5416'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -1865,7 +1865,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 81990650af27473981359e2816462957, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1993,13 +1993,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata16
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata16.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &356050025
 Transform:
@@ -2137,13 +2137,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata04
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata04.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &360874176
 Transform:
@@ -2281,13 +2281,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata24
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata24.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &362714063
 Transform:
@@ -2706,13 +2706,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata10
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata10.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &455799049
 Transform:
@@ -2850,13 +2850,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata21
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata21.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &471309031
 Transform:
@@ -2879,7 +2879,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata24Material
 
     -6110'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -2894,7 +2894,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8fc460b0354842f9828d61f30a01d318, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3022,13 +3022,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata12
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata12.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &536908052
 Transform:
@@ -3141,7 +3141,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -3214,7 +3214,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata08Material
 
     -5450'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -3229,7 +3229,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9eb515875487410e8b0339c8e8ece1ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3242,7 +3242,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata19Material
 
     -5700'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -3257,7 +3257,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: f5f4403a9d8546c8949bc4b2ee1f5103, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3360,7 +3360,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf000000004ef201bf000000000000803f000000000000000000000000000000bf000000004ef2013f000000000000803f00000000000000000000803f0000003f000000004ef201bf000000000000803f000000000000803f000000000000003f000000004ef2013f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -3523,7 +3523,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -3596,7 +3596,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata02Material
 
     -5312'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -3611,7 +3611,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: f33fbd477553485c9d76ee0ffe94447a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3624,7 +3624,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata22Material
 
     -5888'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -3639,7 +3639,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 03418348a5564178bb567289ed2261a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3693,7 +3693,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata04Material
 
     -5346'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -3708,7 +3708,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1778b0dc26244c198a178f7101d39145, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3836,13 +3836,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata11
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata11.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &825780343
 Transform:
@@ -3865,7 +3865,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata11Material
 
     -5502'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -3880,7 +3880,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: e2d1e17910d84ce89fcb0f6591e52646, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -4008,13 +4008,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata03
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata03.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &841435089
 Transform:
@@ -4048,7 +4048,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
+      m_Extent: {x: 0.5, y: 0, z: 0.5093075}
   m_Shapes:
     vertices: []
     shapes: []
@@ -4127,7 +4127,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf000000004ef201bf000000000000803f000000000000000000000000000000bf000000004ef2013f000000000000803f00000000000000000000803f0000003f000000004ef201bf000000000000803f000000000000803f000000000000003f000000004ef2013f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -4200,7 +4200,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata05Material
 
     -5364'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -4215,7 +4215,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9ee3f2a3d91441eeb06d0168e3b903ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -4239,7 +4239,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
+      m_Extent: {x: 0.5, y: 0, z: 0.5093075}
   m_Shapes:
     vertices: []
     shapes: []
@@ -4318,7 +4318,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -4481,7 +4481,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -4644,7 +4644,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -4807,7 +4807,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -4970,7 +4970,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -5065,7 +5065,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5135,7 +5135,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata03Material
 
     -5294'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -5150,7 +5150,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9fe99cb3df274101b18168d351b0b83d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5278,13 +5278,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata07
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata07.xml
+  mAspectRatio: 1.015207
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.015207
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1047567811
 Transform:
@@ -5318,7 +5318,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5093075}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -5397,7 +5397,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -5470,7 +5470,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata20Material
 
     -5882'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -5485,7 +5485,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0f8173d1b650429693bf44462f618411, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5498,7 +5498,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata13Material
 
     -5572'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -5513,7 +5513,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1317bd943f0c4aa9b3ac3c21aaa90af7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5641,13 +5641,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata20
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata20.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1157352643
 Transform:
@@ -5810,7 +5810,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata23Material
 
     -5906'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -5825,7 +5825,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 181dafd1371b40b2b26a31714bf7f8b6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6082,13 +6082,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata22
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata22.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1278710176
 Transform:
@@ -6240,7 +6240,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata16Material
 
     -5724'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -6255,7 +6255,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: a2d8ff343a3144f2a7003a4698607451, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6383,13 +6383,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata17
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata17.xml
+  mAspectRatio: 1.015207
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.015207
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1349664256
 Transform:
@@ -6412,7 +6412,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata07Material
 
     -5398'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -6427,7 +6427,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1eea40c9e9ed4ce3b06b5d2f0bf919ee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6709,13 +6709,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata01
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata01.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1501209047
 Transform:
@@ -6738,7 +6738,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata17Material
 
     -5742'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -6753,7 +6753,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: d1c1969d125c4d8ab8eb090feb2f43ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6766,7 +6766,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata10Material
 
     -5520'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -6781,7 +6781,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3add57a313fd4c4e8b4ee476cd9ff7eb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6794,7 +6794,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata09Material
 
     -5468'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -6809,7 +6809,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: c1baf7f8e0524575a506f9ea436d5978, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6912,7 +6912,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -7100,13 +7100,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata05
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata05.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1625410267
 Transform:
@@ -7244,13 +7244,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata19
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata19.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1625629836
 Transform:
@@ -7363,7 +7363,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -7526,7 +7526,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -7599,7 +7599,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata15Material
 
     -5748'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -7614,7 +7614,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: bcfe5959c51c45aa92a87d9747ecece6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7742,13 +7742,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata02
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata02.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1653966278
 Transform:
@@ -7771,7 +7771,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata18Material
 
     -5718'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -7786,7 +7786,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 899976a07ceb41829169794d8b0ef1b3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -8016,7 +8016,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -8179,7 +8179,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -8367,13 +8367,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata18
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata18.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &1750460622
 Transform:
@@ -8396,7 +8396,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'GatoMARKERMaterial
+  m_Name: 'gata01Material
 
     -5138'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
@@ -8411,7 +8411,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 357757320349413d888b7ed1cf7a6ea3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 73d67b133ff8403db28352cb2a5f626d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -8514,7 +8514,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -8609,7 +8609,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8794,13 +8794,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata14
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata14.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &2026972702
 Transform:
@@ -8956,7 +8956,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6552529987807045729}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9057,7 +9058,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -9220,7 +9221,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -9383,7 +9384,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000fa6102bf000000000000803f000000000000000000000000000000bf00000000fa61023f000000000000803f00000000000000000000803f0000003f00000000fa6102bf000000000000803f000000000000803f000000000000003f00000000fa61023f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -9571,13 +9572,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata06
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata06.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &2131189489
 Transform:
@@ -9715,13 +9716,13 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: GatoMARKER
+  mTrackableName: gata15
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/MonumentsMARK_db.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/gata15.xml
+  mAspectRatio: 1.018615
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1
+  mHeight: 1.018615
   mRuntimeTexture: {fileID: 0}
 --- !u!4 &2138823296
 Transform:
@@ -9737,3 +9738,766 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &223522110601528597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5903777675283831176}
+  - component: {fileID: 6606074633950322080}
+  - component: {fileID: 8824188897874472936}
+  m_Layer: 0
+  m_Name: root 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &418541697337244396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5361450876085751323}
+  m_Layer: 0
+  m_Name: node_id4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &446110403752899391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3497128049548630369}
+  m_LocalRotation: {x: 0.000000021855692, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5658035, y: -1.5702386, z: 0.15660705}
+  m_LocalScale: {x: 70.01606, y: 70.01606, z: 70.01606}
+  m_Children: []
+  m_Father: {fileID: 4905614623383315247}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &766350013879617690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8696937419173013185}
+  m_LocalRotation: {x: 0.000000021855692, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.548056, y: -1.5412816, z: 0.15773869}
+  m_LocalScale: {x: 70.01606, y: 70.01606, z: 70.01606}
+  m_Children: []
+  m_Father: {fileID: 4905614623383315247}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &845419855355985088
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8957064812080911632}
+  m_Mesh: {fileID: 7236921313541846818, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+--- !u!1 &1549158763617240104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2811118545823042072}
+  - component: {fileID: 8121921131649778803}
+  - component: {fileID: 8287621224572721348}
+  m_Layer: 0
+  m_Name: node_id12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &1726810275401921181
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3497128049548630369}
+  m_Mesh: {fileID: -3567447572068085352, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+--- !u!1 &2015459663830845259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6983451889867761962}
+  - component: {fileID: 3181957443003512443}
+  - component: {fileID: 6184070590983269303}
+  m_Layer: 0
+  m_Name: node_id16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2080162505483742587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8957064812080911632}
+  m_LocalRotation: {x: 0.000000021855692, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.592405, y: -1.5764674, z: 0.14241861}
+  m_LocalScale: {x: 70.01606, y: 70.01606, z: 70.01606}
+  m_Children: []
+  m_Father: {fileID: 4905614623383315247}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2193052457028734050
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8696937419173013185}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -7637354296728642660, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!4 &2336675452817081133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6136090697636992965}
+  m_LocalRotation: {x: 0.21255729, y: 0.904797, z: -0.08438936, w: -0.3592218}
+  m_LocalPosition: {x: -0.0025600004, y: 0.0017322851, z: 0.0049915845}
+  m_LocalScale: {x: 0.07001605, y: 0.070016064, z: 0.07001604}
+  m_Children: []
+  m_Father: {fileID: 6552529987807045729}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2760492900589947784
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6019228073443985421}
+  m_Mesh: {fileID: -2323915410060698184, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+--- !u!4 &2811118545823042072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549158763617240104}
+  m_LocalRotation: {x: 0.000000021855692, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5548122, y: -1.5889533, z: 0.1567579}
+  m_LocalScale: {x: 70.01606, y: 70.01606, z: 70.01606}
+  m_Children: []
+  m_Father: {fileID: 4905614623383315247}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3158803578804182116
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246372445799730031}
+  m_Mesh: {fileID: -7449804192404370330, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+--- !u!33 &3181957443003512443
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015459663830845259}
+  m_Mesh: {fileID: -5937065958109638849, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+--- !u!4 &3364547602181000629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6019228073443985421}
+  m_LocalRotation: {x: 1.7112912e-15, y: 1, z: -0.000000021855692, w: 0.000000075497894}
+  m_LocalPosition: {x: 2.4990337, y: -1.5702386, z: 0.15660705}
+  m_LocalScale: {x: 70.01606, y: 70.01606, z: 70.01606}
+  m_Children: []
+  m_Father: {fileID: 4905614623383315247}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3497128049548630369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 446110403752899391}
+  - component: {fileID: 1726810275401921181}
+  - component: {fileID: 6409900140214328230}
+  m_Layer: 0
+  m_Name: node_id6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &4139592762679277859
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246372445799730031}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -9131491394003924092, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &4246372445799730031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4580914909018411091}
+  - component: {fileID: 3158803578804182116}
+  - component: {fileID: 4139592762679277859}
+  m_Layer: 0
+  m_Name: root 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4580914909018411091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246372445799730031}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6552529987807045729}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4905614623383315247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5793059181723869034}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.09000948, y: 0.060907092, z: -0.005570703}
+  m_LocalScale: {x: 0.03615996, y: 0.03615996, z: 0.03615996}
+  m_Children:
+  - {fileID: 446110403752899391}
+  - {fileID: 2080162505483742587}
+  - {fileID: 766350013879617690}
+  - {fileID: 2811118545823042072}
+  - {fileID: 3364547602181000629}
+  - {fileID: 6983451889867761962}
+  m_Father: {fileID: 6552529987807045729}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &5361450876085751323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418541697337244396}
+  m_LocalRotation: {x: -0.1016108, y: -0.19704144, z: 0.7760218, w: 0.59045756}
+  m_LocalPosition: {x: 0.002431435, y: -0.0014516537, z: 0.0002774721}
+  m_LocalScale: {x: 0.07001605, y: 0.07001607, z: 0.07001606}
+  m_Children: []
+  m_Father: {fileID: 6552529987807045729}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &5671997952259421277
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6019228073443985421}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -8607415146621424743, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &5793059181723869034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4905614623383315247}
+  m_Layer: 0
+  m_Name: node_id18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5882989612223509211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6552529987807045729}
+  m_Layer: 0
+  m_Name: modeloGato
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5903777675283831176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223522110601528597}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6552529987807045729}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6019228073443985421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3364547602181000629}
+  - component: {fileID: 2760492900589947784}
+  - component: {fileID: 5671997952259421277}
+  m_Layer: 0
+  m_Name: node_id14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6136090697636992965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2336675452817081133}
+  m_Layer: 0
+  m_Name: node_id5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &6184070590983269303
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015459663830845259}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -3462218850867246740, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &6409900140214328230
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3497128049548630369}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 7870297595035419757, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!4 &6552529987807045729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5882989612223509211}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.189, y: 0.45, z: -0.129}
+  m_LocalScale: {x: 254.82626, y: 254.82626, z: 254.82626}
+  m_Children:
+  - {fileID: 5361450876085751323}
+  - {fileID: 2336675452817081133}
+  - {fileID: 4905614623383315247}
+  - {fileID: 5903777675283831176}
+  - {fileID: 4580914909018411091}
+  m_Father: {fileID: 2027985365}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &6606074633950322080
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223522110601528597}
+  m_Mesh: {fileID: -6053382344825935911, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+--- !u!4 &6983451889867761962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015459663830845259}
+  m_LocalRotation: {x: 0.000000021855692, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5386007, y: -1.5889533, z: 0.1567579}
+  m_LocalScale: {x: 70.01606, y: 70.01606, z: 70.01606}
+  m_Children: []
+  m_Father: {fileID: 4905614623383315247}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8102525869103265803
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8696937419173013185}
+  m_Mesh: {fileID: -7367767413774815751, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+--- !u!33 &8121921131649778803
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549158763617240104}
+  m_Mesh: {fileID: 8125956243088179866, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+--- !u!23 &8287621224572721348
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549158763617240104}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -1181916987442931835, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8696937419173013185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 766350013879617690}
+  - component: {fileID: 8102525869103265803}
+  - component: {fileID: 2193052457028734050}
+  m_Layer: 0
+  m_Name: node_id10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &8824188897874472936
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223522110601528597}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -9131491394003924092, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8957064812080911632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080162505483742587}
+  - component: {fileID: 845419855355985088}
+  - component: {fileID: 9118364609029925171}
+  m_Layer: 0
+  m_Name: node_id8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &9118364609029925171
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8957064812080911632}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2281923362581821917, guid: a23d4e6f2740c624e9bd3130603da251, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
