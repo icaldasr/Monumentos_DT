@@ -13,7 +13,7 @@
     <genre>Female</genre>
     <age>22</age>
     <user>icaldasr</user>
-    <password>123456</password>
+    <password>123458</password>
   </profile>
   <profile id ="3">
     <email>prueba@gmail.com</email>
@@ -21,6 +21,6 @@
     <genre>Male</genre>
     <age>24</age>
     <user>prueba1</user>
-    <password>123456</password>
+    <password>123457</password>
   </profile>
 </users>

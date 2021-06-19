@@ -22,29 +22,30 @@ public class UserDataManager : MonoBehaviour
     //public Text uiMessageBox4;
     public Text uiMessageBox5;
     //public InputField uiUserTextBox;
-    //public InputField uiPasswordTextBox;
+    public InputField passwordInput;
     public GameObject usernameInput;
-    public GameObject passwordInput;
+    //public GameObject passwordInput;
     public GameObject uiMessageBox; //Antes
     public GameObject uiMessageBox2; //Después
     public GameObject uiMessageBox3; //XML
     public GameObject uiMessageBox4; //Inicio Sesión
 
+    public GameObject uiAddComm; //Ventana agregar comentario
+    public GameObject uiCommMenu; //Ventana ver cmments
+    public GameObject uiAyudaMenu; //Ventana de ayuda
+    public GameObject uiCreditosMenu; //Ventana de créditos
+    public GameObject uiExplorar; //Ventana explorar
+    public GameObject uiProfileMenu; //ventana Perfil
+    public GameObject uiOptionsMenu; //ventana Opciones
+    public GameObject uiStartMenu; //Menu inicio
+    public GameObject uiTyC; //Ventana T&C
+    public GameObject uiSignUp; //Ventana registro
+    public GameObject uiInicioSesion; //Ventana Inicio de Sesión
+    
+
     //public string cadena;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        //TextAsset xmlTextAsset = Resources.Load<NombreArchivo>("Carpeta/Nombrearchivo");
-        string data = xmlRawFile.text;
-        //readXMLUser(data);
-        logIn(data);
-        parseXmlFile(data);
-        //cargarInfo(data, uiUserTextBox.text, uiPasswordTextBox.text);
-        //getUser(data);
-
-    }
-
     public static int countUsers(string xmlData)
     {
         List<List<string>> usersXML = new List<List<string>>();
@@ -77,167 +78,58 @@ public class UserDataManager : MonoBehaviour
         return usersXML;
     }
 
-    public string getValuesFromUser()
+    public void logIn2(string uname)
     {
-        string username = usernameInput.GetComponent<Text>().text;
-        return username;
-    }
-    public void logIn(string data)
-    {
-        List<List<string>> usersXML = new List<List<string>>();
-        usersXML = readXMLUser(data);
-        int nodes = countUsers(data);
-        //int i = 0;
+        string data = xmlRawFile.text;
 
-        
+        string userInput = usernameInput.GetComponent<Text>().text.ToString();
+        string passInput = passwordInput.text;
 
-        foreach (var v in usersXML)
+        XmlDocument xmlDoc = new XmlDocument();
+        xmlDoc.Load(new StringReader(data));
+        XmlNodeList nodeList = xmlDoc.DocumentElement.SelectNodes("//users/profile");
+
+        foreach (XmlNode node in nodeList)
         {
-            string user = v[0];
-            string password = v[1];
+            string username = node.SelectSingleNode("user").InnerText;
+            string password = node.SelectSingleNode("password").InnerText;
 
-            uiMessageBox3.GetComponent<Text>().text = " XML:" + user + " " + password + " " + nodes.ToString();
-
-            string username = getValuesFromUser();
-
-            if (v[0].Contains(username))
+            if (username == userInput && password == passInput)
             {
-                uiMessageBox4.GetComponent<Text>().text = "Inicia Sesión" + v[0] + " " + username;
+                uiAddComm.SetActive(false); //Ventana agregar comentario
+                uiCommMenu.SetActive(false); //Ventana ver cmments
+                uiAyudaMenu.SetActive(false);//Ventana de ayuda
+                uiCreditosMenu.SetActive(false); //Ventana de créditos
+                uiExplorar.SetActive(false); //Ventana explorar
+                uiProfileMenu.SetActive(false); //ventana Perfil
+                uiOptionsMenu.SetActive(false); //ventana Opciones
+                uiTyC.SetActive(false); //Ventana T&C
+                uiSignUp.SetActive(false);//Ventana registro
+                uiInicioSesion.SetActive(false);
+
+                uiStartMenu.SetActive(true);
                 break;
             }
+            else if (userInput == "" || passInput =="")
+            {
+                uiMessageBox4.GetComponent<Text>().text = "Usuario o Contraseña Incorrectos, Intente nuevamente";
+            }
             else
             {
-                uiMessageBox4.GetComponent<Text>().text = "NOOOO Inicia Sesión " + v[0] + " " + username; ;
+                uiMessageBox4.GetComponent<Text>().text = "Usuario o Contraseña Incorrectos, Intente nuevamente";
             }
         }
-        /*for (i = 0; i<=nodes; i++)
-        {
-            string user = usersXML[i][0];
-            string password = usersXML[i][1];
-
-            uiMessageBox3.GetComponent<Text>().text = " XML:" + user + " " + password + " " + nodes.ToString();
-
-            if (usersXML[i][0].Contains("icaldasr"))
-            {
-                uiMessageBox4.GetComponent<Text>().text = "Inicia Sesión" + usersXML[i][0];
-                break;
-            }
-            else
-            {
-                uiMessageBox4.GetComponent<Text>().text = "Usuario o Contraseña incorrecta. Intente nuevamente" + usersXML[i][0];
-            }
-
-
-            /*if ("dgalarza" == user && "123456" == password)
-            {
-                uiMessageBox4.GetComponent<Text>().text = "Inicia Sesión";
-            }
-            else
-            {
-                //uiMessageBox4.text ="ERROR";
-                if (user != "Dgalarza" && password == "123456")
-                {
-                    uiMessageBox4.GetComponent<Text>().text = "Usr DIf " + user + " Input";
-                }
-
-                else if (user == "dgalarga" && password != "12345")
-                {
-                    uiMessageBox4.GetComponent<Text>().text = "PSS DIf " + password + " Input";
-                }
-            }
-        }*/
-        //string user = usersXML[0][0];
-        //string password = usersXML[0][1];
-        /*uiMessageBox3.GetComponent<Text>().text = " XML:" + user + " " + password + " " + nodes.ToString();
-
-        if ("dgalarza" == user && "123456" == password)
-        {
-            uiMessageBox4.GetComponent<Text>().text = "Inicia Sesión";
-        }
-        else
-        {
-            //uiMessageBox4.text ="ERROR";
-            if (user != "Dgalarza" && password == "123456")
-            {
-                uiMessageBox4.GetComponent<Text>().text = "Usr DIf " + user + " Input";
-            }
-
-            else if (user == "dgalarga" && password != "12345")
-            {
-                uiMessageBox4.GetComponent<Text>().text = "PSS DIf " + password + " Input";
-            }
-
-            else
-            {
-                uiMessageBox4.text = "ERROR " + password + " Input" + uiPasswordTextBox.text + " " + user + " Input" + uiUserTextBox.text;
-                uiMessageBox.text = "ERROR " + password + " Input" + uiPasswordTextBox.text + " " + user + " Input" + uiUserTextBox.text;
-            }*/
-
-            //string userInput = uiUserTextBox.text;
-            //string psswdInput = uiPasswordTextBox.text;
-            //uiMessageBox5.text = "INPUT1: " + userInput + " " + psswdInput;
-
-            //string username = usernameInput.GetComponent<Text>().text;
-            //uiMessageBox.GetComponent<Text>().text = "Usuario INPUT antes: " + username;
-            /*XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.Load(new StringReader(xmlData));
-            XmlNodeList nodeList = xmlDoc.DocumentElement.SelectNodes("//users/profile");
-            List<string> resultXML = new List<string>();
-            foreach (XmlNode node in nodeList)
-            {
-                //uiMessageBox2.GetComponent<Text>().text = "Usuario INPUT después: " + username;
-            //string userInput = uiUserTextBox.text.ToString();
-            //string psswdInput = uiPasswordTextBox.text.ToString();
-
-                string user = node.SelectSingleNode("user").InnerText;
-                string password = node.SelectSingleNode("password").InnerText;
-            resultXML.Insert(0,user);
-            resultXML.Insert(1, password);
-                //string username2 = usernameInput.GetComponent<Text>().text;
-
-                uiMessageBox3.GetComponent<Text>().text = "XML: " + user + " " + password;
-            //uiMessageBox2.text = "INPUT: " + userInput + " " + psswdInput;
-
-            if (uiUserTextBox.text == user && uiPasswordTextBox.text == password)
-            {
-                uiMessageBox4.text = "Inicia Sesión";
-                uiMessageBox.text = "Inicia Sesión";
-            }
-            else
-            {
-                //uiMessageBox4.text ="ERROR";
-                if (user != uiUserTextBox.text && password == uiPasswordTextBox.text)
-                {
-                    uiMessageBox4.text = "Usr DIf " + user + " Input" + uiUserTextBox.text;
-                }
-
-                else if (user == uiUserTextBox.text && password != uiPasswordTextBox.text)
-                {
-                    uiMessageBox4.text = "PSS DIf " + password + " Input" + uiPasswordTextBox.text;
-                }
-
-                else
-                {
-                    uiMessageBox4.text = "ERROR " + password + " Input" + uiPasswordTextBox.text + " " + user + " Input" + uiUserTextBox.text;
-                    uiMessageBox.text = "ERROR " + password + " Input" + uiPasswordTextBox.text + " " + user + " Input" + uiUserTextBox.text;
-                }
-            }
-                //return (user, password);
-            }
-            //uiMessageBox2.GetComponent<Text>().text = "Usuario INPUT después: " + username + " XML:" + resultXML[0];*/
-            //string username = usernameInput.GetComponent<Text>().text;
-            //uiMessageBox.GetComponent<Text>().text = "Usuario INPUT antes: " + username;
-
-        //}
     }
-    
+
+    public void signUp(string strn)
+    {
+
+    }
     public void parseXmlFile(string xmlData)
     {
-        //string valEmail = "";
         string valName = "";
         string valGenre = "";
         string valAge = "";
-        //string totVal = "";
 
         //Inicializa el xml
         XmlDocument xmlDoc = new XmlDocument();
