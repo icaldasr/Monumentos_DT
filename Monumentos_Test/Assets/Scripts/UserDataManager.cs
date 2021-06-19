@@ -41,7 +41,7 @@ public class UserDataManager : MonoBehaviour
     public GameObject uiTyC; //Ventana T&C
     public GameObject uiSignUp; //Ventana registro
     public GameObject uiInicioSesion; //Ventana Inicio de Sesión
-    
+
 
     //public string cadena;
 
@@ -74,7 +74,7 @@ public class UserDataManager : MonoBehaviour
 
             usersXML.Add(user);
         }
-        
+
         return usersXML;
     }
 
@@ -110,7 +110,7 @@ public class UserDataManager : MonoBehaviour
                 uiStartMenu.SetActive(true);
                 break;
             }
-            else if (userInput == "" || passInput =="")
+            else if (userInput == "" || passInput == "")
             {
                 uiMessageBox4.GetComponent<Text>().text = "Usuario o Contraseña Incorrectos, Intente nuevamente";
             }
