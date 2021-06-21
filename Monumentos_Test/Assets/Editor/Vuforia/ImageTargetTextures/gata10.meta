@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fd2c027a49bb26d45b2c99c89ab7480b
+=======
+<<<<<<< HEAD:Monumentos_Test/Assets/Editor/Vuforia/ImageTargetTextures/gata08.meta
+guid: a8385bd689fa4e54298eadeae84a5f69
+=======
+guid: fd2c027a49bb26d45b2c99c89ab7480b
+>>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction):Monumentos_Test/Assets/Editor/Vuforia/ImageTargetTextures/gata10.meta
+>>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

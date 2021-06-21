@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Monumentos_Test/Assets/3DModels/GatasMODELS/texture03/Materials.meta
 guid: e3ffa402c28c34d4a97e6d140c46936f
+=======
+guid: a8385bd689fa4e54298eadeae84a5f69
+>>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction):Monumentos_Test/Assets/Editor/Vuforia/ImageTargetTextures/gata08.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
