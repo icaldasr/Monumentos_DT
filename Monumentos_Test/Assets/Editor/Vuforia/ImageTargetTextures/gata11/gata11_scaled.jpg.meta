@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: e2d1e17910d84ce89fcb0f6591e52646
-=======
-<<<<<<< HEAD:Monumentos_Test/Assets/3DModels/GatasMODELS/texture06/1345.png.meta
-guid: fbdc7f75cabc8584c9634847603a9b67
-=======
-guid: e2d1e17910d84ce89fcb0f6591e52646
->>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction):Monumentos_Test/Assets/Editor/Vuforia/ImageTargetTextures/gata11/gata11_scaled.jpg.meta
->>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
