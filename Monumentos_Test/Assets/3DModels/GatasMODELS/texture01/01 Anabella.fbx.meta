@@ -1,6 +1,5 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
-<<<<<<< HEAD
 guid: 6f289a839d7b0bc4ea06cf9632007d2c
 =======
 <<<<<<< HEAD:Monumentos_Test/Assets/3DModels/GatasMODELS/texture06/06 En Cintas.fbx.meta
@@ -9,15 +8,11 @@ guid: 90614a32063cab0408004519b5379056
 guid: 6f289a839d7b0bc4ea06cf9632007d2c
 >>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction):Monumentos_Test/Assets/3DModels/GatasMODELS/texture01/01 Anabella.fbx.meta
 >>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction)
-=======
-guid: 6f289a839d7b0bc4ea06cf9632007d2c
->>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction)
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
   externalObjects:
   - first:
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD:Monumentos_Test/Assets/3DModels/GatasMODELS/texture06/06 En Cintas.fbx.meta
@@ -37,8 +32,6 @@ ModelImporter:
     second: {fileID: 2800000, guid: fbdc7f75cabc8584c9634847603a9b67, type: 3}
 =======
 >>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction)
-=======
->>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction)
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 8067
@@ -49,11 +42,8 @@ ModelImporter:
       name: 8071
     second: {fileID: 2800000, guid: 5a5edf1566ea1f941b5d4eaa9522aef3, type: 3}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction):Monumentos_Test/Assets/3DModels/GatasMODELS/texture01/01 Anabella.fbx.meta
->>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction)
-=======
 >>>>>>> parent of bcae2fa (Fixed Cats models, Cristo Scene has finall button interaction)
   materials:
     materialImportMode: 1
