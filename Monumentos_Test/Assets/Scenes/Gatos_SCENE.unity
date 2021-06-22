@@ -1073,26 +1073,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fa39aa58da44f84fbc25d6e2a877ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiAddComm: {fileID: 4977211649755382930, guid: ca99884d67e8df04da4f2c41850c1ee2,
+  uiAddComm: {fileID: 7836015918168738584, guid: ca99884d67e8df04da4f2c41850c1ee2,
     type: 3}
-  uiCommMenu: {fileID: 7618808789595396318, guid: 06b6b794be3c3b54b8badc2d3d0258de,
+  uiCommMenu: {fileID: 6113613835221030037, guid: 06b6b794be3c3b54b8badc2d3d0258de,
     type: 3}
-  uiAyudaMenu: {fileID: 1033844451823155690, guid: 2bdb7a96ef36ee244bdd73e023610d83,
+  uiAyudaMenu: {fileID: 7978399751176097693, guid: 2bdb7a96ef36ee244bdd73e023610d83,
     type: 3}
-  uiCreditosMenu: {fileID: 2118480021159708001, guid: aeffc56d23c459f42bcbcc7a22220e82,
+  uiCreditosMenu: {fileID: 2120340403151213568, guid: aeffc56d23c459f42bcbcc7a22220e82,
     type: 3}
-  uiExplorar: {fileID: 7324756173466702088, guid: 21da8b9db09a4fa4aaed29435330574c,
+  uiExplorar: {fileID: 8908346443439866922, guid: 21da8b9db09a4fa4aaed29435330574c,
     type: 3}
-  uiProfileMenu: {fileID: 8175137857914904805, guid: 3ff309aec22973a4b8993331a825ed92,
+  uiProfileMenu: {fileID: 58404115004406561, guid: 3ff309aec22973a4b8993331a825ed92,
     type: 3}
-  uiEditarProfMenu: {fileID: 0}
-  uiOptionsMenu: {fileID: 5064068169706482287, guid: ac83af630b855504e821cca142728abf,
+  uiEditarProfMenu: {fileID: 5118954916807406079, guid: bf97cf89fcc22a946a3b375ebdd7a232,
     type: 3}
-  uiStartMenu: {fileID: 2405257288287943633, guid: f103d06a09706424a98128e38b532a62,
+  uiOptionsMenu: {fileID: 8002787001058456041, guid: ac83af630b855504e821cca142728abf,
     type: 3}
-  uiTyC: {fileID: 6147099198549600795, guid: 449c408bc00e6694db26f8c690ed7ef9, type: 3}
-  uiSignUp: {fileID: 242994788376299701, guid: db524cc4c4df6d542b5f18c0a7f966c3, type: 3}
-  uiInicioSesion: {fileID: 2190958923830214631, guid: f35c7854a4bf8c04683140c8123e6750,
+  uiStartMenu: {fileID: 7786430800758373911, guid: f103d06a09706424a98128e38b532a62,
+    type: 3}
+  uiTyC: {fileID: 613976549276705947, guid: 449c408bc00e6694db26f8c690ed7ef9, type: 3}
+  uiSignUp: {fileID: 6710246002801028161, guid: db524cc4c4df6d542b5f18c0a7f966c3,
+    type: 3}
+  uiInicioSesion: {fileID: 8220481286311222793, guid: f35c7854a4bf8c04683140c8123e6750,
     type: 3}
 --- !u!4 &725921844
 Transform:

@@ -1,0 +1,22 @@
+<comments>
+	<CRey>
+		<visits>
+			<counter></counter>
+		</visits>
+		<comment id = "1">
+			<body>"Esta es una prueba"</body>
+			<emotion>"Feliz"</emotion>
+			<mTransport>"Bici"</mTransport>			
+		</comment>
+	</CRey>
+	<Gatos>
+		<visits>
+			<counter></counter>
+		</visits>
+		<comment id = "1">
+			<body></body>
+			<emotion></emotion>
+			<mTransport></mTransport>			
+		</comment>
+	</Gatos>
+</comments>

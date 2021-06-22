@@ -12,6 +12,7 @@ public class UserDataManager : MonoBehaviour
 {
     //Archivo XML
     public TextAsset xmlRawFile;
+    public TextAsset xmlRawFileComments;
 
     public GameObject uiEmail;
     public Text uiName;
@@ -30,6 +31,7 @@ public class UserDataManager : MonoBehaviour
     public GameObject uiMessageBox3; //XML
     public GameObject uiMessageBox4; //Inicio Sesión
     public GameObject uiMessageBox5; //Inicio Sesión
+    public GameObject uiMessageBox6; 
 
     //Ventanas en Menu
     public GameObject uiAddComm; //Ventana agregar comentario
@@ -53,6 +55,18 @@ public class UserDataManager : MonoBehaviour
     public InputField ageInputReg;
     public InputField genreInputReg;
     public InputField nameInputReg;
+
+    //Campos EditarPerfil
+    public InputField passwordInputProf;
+    //public InputField passwordConfInputReg;
+    //public InputField usernameInputReg;
+    //public InputField emailInputReg;
+    public InputField ageInputProf;
+    public InputField genreInputProf;
+    public InputField nameInputProf;
+
+    //COmentarios
+    public GameObject uiCommentBody;
 
     public void register(string strn)
     {
@@ -89,7 +103,10 @@ public class UserDataManager : MonoBehaviour
                 uiMessageBox5.GetComponent<Text>().text = "Este correo ya se encuentra registrado!";
                 break;
             }
-
+            else if (nameInput == "" || emailInput == "" || userInput == "" || passInput == "" || ageInput == "" || genreInput == "")
+            {
+                uiMessageBox5.GetComponent<Text>().text = "Por favor complete todos los campos";
+            }
             else
             {
                 uiMessageBox5.GetComponent<Text>().text = "¡Usuario registrado! Iniciando....";
@@ -103,6 +120,7 @@ public class UserDataManager : MonoBehaviour
                 uiTyC.SetActive(true); //Ventana T&C
                 uiSignUp.SetActive(false);//Ventana registro
                 uiInicioSesion.SetActive(false);
+                uiEditarPerfil.SetActive(false);
 
                 uiStartMenu.SetActive(false);
             }
@@ -245,6 +263,84 @@ public class UserDataManager : MonoBehaviour
             uiAge.text = valAge;
             //totVal += "Email: " + email.InnerXml + "\n Name: " + name.InnerXml + "\n User: " + age.InnerXml + "\n\n";
             //uiText.text = totVal;
+        }
+    }
+
+    public void setProfileValues(string usrt)
+    {
+        //PlayerPrefs.SetString("name", nameInputReg.text);
+        string nameInput = PlayerPrefs.GetString("name");
+        nameInputProf.text = nameInput;
+
+        //PlayerPrefs.SetString("password", passwordInputReg.text);
+        string passInput = PlayerPrefs.GetString("password");
+        passwordInputProf.text = passInput;
+
+        //PlayerPrefs.SetString("age", ageInputReg.text);
+        string ageInput = PlayerPrefs.GetString("age");
+        ageInputProf.text = ageInput;
+
+        //PlayerPrefs.SetString("genre", genreInputReg.text);
+        string genreInput = PlayerPrefs.GetString("genre");
+        genreInputProf.text = genreInput;
+    }
+
+    public void saveProfile(string usrn)
+    {
+        PlayerPrefs.SetString("name", nameInputProf.text);
+        string nameInput = PlayerPrefs.GetString("name");
+
+        PlayerPrefs.SetString("password", passwordInputProf.text);
+        string passInput = PlayerPrefs.GetString("password");
+
+        PlayerPrefs.SetString("age", ageInputProf.text);
+        string ageInput = PlayerPrefs.GetString("age");
+
+        PlayerPrefs.SetString("genre", genreInputProf.text);
+        string genreInput = PlayerPrefs.GetString("genre");
+
+        if (nameInput == "" || passInput == "" || ageInput == "" || genreInput == "")
+        {
+            uiMessageBox6.GetComponent<Text>().text = "Por favor complete todos los campos";
+        }
+        else
+        {
+            uiMessageBox5.GetComponent<Text>().text = "¡Usuario Editado!";
+            uiAddComm.SetActive(false); //Ventana agregar comentario
+            uiCommMenu.SetActive(false); //Ventana ver cmments
+            uiAyudaMenu.SetActive(false);//Ventana de ayuda
+            uiCreditosMenu.SetActive(false); //Ventana de créditos
+            uiExplorar.SetActive(false); //Ventana explorar
+            uiProfileMenu.SetActive(true); //ventana Perfil
+            uiOptionsMenu.SetActive(false); //ventana Opciones
+            uiTyC.SetActive(false); //Ventana T&C
+            uiSignUp.SetActive(false);//Ventana registro
+            uiInicioSesion.SetActive(false);
+            uiEditarPerfil.SetActive(false);
+            uiStartMenu.SetActive(false);
+        }
+
+    }
+
+    public void cargarCommentsGatas(string strn)
+    {
+        string data = xmlRawFileComments.text;
+
+        //string userInput = usernameInput.GetComponent<Text>().text.ToString();
+        //string passInput = passwordInput.text;
+
+        XmlDocument xmlDoc = new XmlDocument();
+        xmlDoc.Load(new StringReader(data));
+        XmlNodeList nodeList = xmlDoc.DocumentElement.SelectNodes("//comments/Gatos/comment");
+
+        foreach (XmlNode node in nodeList)
+        {
+            string body = node.SelectSingleNode("body").InnerText;
+            string emotion = node.SelectSingleNode("emotion").InnerText;
+            string mTransport = node.SelectSingleNode("mTransport").InnerText;
+            //string age = node.SelectSingleNode("age").InnerText;
+            //string genre = node.SelectSingleNode("genre").InnerText;
+            uiCommentBody.GetComponent<Text>().text = body;
         }
     }
 }
