@@ -4,32 +4,34 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Xml;
+using System.Xml.Serialization;
+using UnityEngine.Networking;
 
 
 public class UserDataManager : MonoBehaviour
 {
+    //Archivo XML
     public TextAsset xmlRawFile;
-    public Text uiEmail;
+
+    public GameObject uiEmail;
     public Text uiName;
     public Text uiGenre;
     public Text uiAge;
-    public Text uiUser;
-    public Text uiText;
+    public GameObject uiUser;
+    public GameObject uiText;
 
-    //public Text uiMessageBox;
-    //public Text uiMessageBox2;
-    //public Text uiMessageBox3;
-    //public Text uiMessageBox4;
-    public Text uiMessageBox5;
-    //public InputField uiUserTextBox;
+    //Inicio sesión
     public InputField passwordInput;
     public GameObject usernameInput;
-    //public GameObject passwordInput;
+    
+    //TextBox
     public GameObject uiMessageBox; //Antes
     public GameObject uiMessageBox2; //Después
     public GameObject uiMessageBox3; //XML
     public GameObject uiMessageBox4; //Inicio Sesión
+    public GameObject uiMessageBox5; //Inicio Sesión
 
+    //Ventanas en Menu
     public GameObject uiAddComm; //Ventana agregar comentario
     public GameObject uiCommMenu; //Ventana ver cmments
     public GameObject uiAyudaMenu; //Ventana de ayuda
@@ -41,11 +43,71 @@ public class UserDataManager : MonoBehaviour
     public GameObject uiTyC; //Ventana T&C
     public GameObject uiSignUp; //Ventana registro
     public GameObject uiInicioSesion; //Ventana Inicio de Sesión
+    public GameObject uiEditarPerfil;
 
+    //Campos Registro
+    public InputField passwordInputReg;
+    public InputField passwordConfInputReg;
+    public InputField usernameInputReg;
+    public InputField emailInputReg;
+    public InputField ageInputReg;
+    public InputField genreInputReg;
+    public InputField nameInputReg;
 
-    //public string cadena;
+    public void register(string strn)
+    {
+        PlayerPrefs.SetString("name", nameInputReg.text);
+        string nameInput = PlayerPrefs.GetString("name");
 
-    // Start is called before the first frame update
+        PlayerPrefs.SetString("email", emailInputReg.text);
+        string emailInput = PlayerPrefs.GetString("email");
+
+        PlayerPrefs.SetString("user", usernameInputReg.text);
+        string userInput = PlayerPrefs.GetString("user");
+
+        PlayerPrefs.SetString("password", passwordInputReg.text);
+        string passInput = PlayerPrefs.GetString("password");
+
+        PlayerPrefs.SetString("age", ageInputReg.text);
+        string ageInput = PlayerPrefs.GetString("age");
+
+        PlayerPrefs.SetString("genre", genreInputReg.text);
+        string genreInput = PlayerPrefs.GetString("genre");
+
+        string data = xmlRawFile.text;
+
+        XmlDocument xmlDoc = new XmlDocument();
+        xmlDoc.Load(new StringReader(data));
+        XmlNodeList nodeList = xmlDoc.DocumentElement.SelectNodes("//users/profile");
+
+        foreach (XmlNode node in nodeList)
+        {
+            string email = node.SelectSingleNode("email").InnerText;
+
+            if (email == emailInput)
+            {
+                uiMessageBox5.GetComponent<Text>().text = "Este correo ya se encuentra registrado!";
+                break;
+            }
+
+            else
+            {
+                uiMessageBox5.GetComponent<Text>().text = "¡Usuario registrado! Iniciando....";
+                uiAddComm.SetActive(false); //Ventana agregar comentario
+                uiCommMenu.SetActive(false); //Ventana ver cmments
+                uiAyudaMenu.SetActive(false);//Ventana de ayuda
+                uiCreditosMenu.SetActive(false); //Ventana de créditos
+                uiExplorar.SetActive(false); //Ventana explorar
+                uiProfileMenu.SetActive(false); //ventana Perfil
+                uiOptionsMenu.SetActive(false); //ventana Opciones
+                uiTyC.SetActive(true); //Ventana T&C
+                uiSignUp.SetActive(false);//Ventana registro
+                uiInicioSesion.SetActive(false);
+
+                uiStartMenu.SetActive(false);
+            }
+        }
+    }
     public static int countUsers(string xmlData)
     {
         List<List<string>> usersXML = new List<List<string>>();
@@ -93,9 +155,32 @@ public class UserDataManager : MonoBehaviour
         {
             string username = node.SelectSingleNode("user").InnerText;
             string password = node.SelectSingleNode("password").InnerText;
+            string name = node.SelectSingleNode("name").InnerText;
+            string age = node.SelectSingleNode("age").InnerText;
+            string genre = node.SelectSingleNode("genre").InnerText;
 
             if (username == userInput && password == passInput)
             {
+                PlayerPrefs.SetString("name", node.SelectSingleNode("name").InnerText.ToString());
+                string nameInput = PlayerPrefs.GetString("name");
+
+                //PlayerPrefs.SetString("email", emailInputReg.text);
+                //string emailInput = PlayerPrefs.GetString("email");
+
+                PlayerPrefs.SetString("user", node.SelectSingleNode("user").InnerText.ToString());
+                string userInputPP = PlayerPrefs.GetString("user");
+
+                //PlayerPrefs.SetString("password", passwordInputReg.text);
+                //string passInput = PlayerPrefs.GetString("password");
+
+                PlayerPrefs.SetString("age", node.SelectSingleNode("age").InnerText.ToString());
+                string ageInput = PlayerPrefs.GetString("age");
+
+                PlayerPrefs.SetString("genre", node.SelectSingleNode("genre").InnerText.ToString());
+                string genreInput = PlayerPrefs.GetString("genre");
+
+                uiMessageBox4.GetComponent<Text>().text = name + username + age + genre;
+
                 uiAddComm.SetActive(false); //Ventana agregar comentario
                 uiCommMenu.SetActive(false); //Ventana ver cmments
                 uiAyudaMenu.SetActive(false);//Ventana de ayuda
@@ -121,8 +206,16 @@ public class UserDataManager : MonoBehaviour
         }
     }
 
-    public void signUp(string strn)
+    public void profileSettings(string usrn)
     {
+        string nameInput = PlayerPrefs.GetString("name");
+        uiName.text = nameInput;
+
+        string ageInput = PlayerPrefs.GetString("age");
+        uiAge.text = ageInput;
+
+        string genreInput = PlayerPrefs.GetString("genre");
+        uiGenre.text = genreInput;
 
     }
     public void parseXmlFile(string xmlData)

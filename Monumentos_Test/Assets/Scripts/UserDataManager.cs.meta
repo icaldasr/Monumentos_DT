@@ -3,7 +3,39 @@ guid: b968d4cafa9a76542afe4f162a27ca98
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - xmlRawFile: {fileID: 4900000, guid: da217c4fa3e3b9a409c5e2047a08061a, type: 3}
+  - uiEmail: {instanceID: 0}
+  - uiName: {instanceID: 0}
+  - uiGenre: {instanceID: 0}
+  - uiAge: {instanceID: 0}
+  - uiUser: {instanceID: 0}
+  - uiText: {instanceID: 0}
+  - passwordInput: {instanceID: 0}
+  - usernameInput: {instanceID: 0}
+  - uiMessageBox: {instanceID: 0}
+  - uiMessageBox2: {instanceID: 0}
+  - uiMessageBox3: {instanceID: 0}
+  - uiMessageBox4: {instanceID: 0}
+  - uiMessageBox5: {instanceID: 0}
+  - uiAddComm: {instanceID: 0}
+  - uiCommMenu: {instanceID: 0}
+  - uiAyudaMenu: {instanceID: 0}
+  - uiCreditosMenu: {instanceID: 0}
+  - uiExplorar: {instanceID: 0}
+  - uiProfileMenu: {instanceID: 0}
+  - uiOptionsMenu: {instanceID: 0}
+  - uiStartMenu: {instanceID: 0}
+  - uiTyC: {instanceID: 0}
+  - uiSignUp: {instanceID: 0}
+  - uiInicioSesion: {instanceID: 0}
+  - passwordInputReg: {instanceID: 0}
+  - passwordConfInputReg: {instanceID: 0}
+  - usernameInputReg: {instanceID: 0}
+  - emailInputReg: {instanceID: 0}
+  - ageInputReg: {instanceID: 0}
+  - genreInputReg: {instanceID: 0}
+  - nameInputReg: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
